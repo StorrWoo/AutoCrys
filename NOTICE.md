@@ -4,13 +4,13 @@ Author: **Shitao Wu**
 
 Affiliation: **ShanghaiTech**
 
-All rights reserved. This repository is publicly visible for inspection.
+All rights reserved. Repository visibility does not grant a license to use the software.
 No open-source license is granted. Except for rights required by applicable law
 or GitHub's Terms of Service, downloading, using, executing, modifying,
 reproducing or distributing this software requires prior written permission
 from the author or relevant rights holder.
 
-Public GitHub repositories permit viewing and forking under GitHub's terms,
+If this repository is made public, GitHub permits viewing and forking under its terms,
 and GitHub does not provide a technical control to prevent public downloads.
 This notice does not override those platform rights or promise download blocking.
 Requests for permission can be directed to the author through the repository's

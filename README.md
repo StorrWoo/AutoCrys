@@ -2,7 +2,7 @@
 
 **Author: Shitao Wu · Affiliation: ShanghaiTech**
 
-**Use requires prior written permission.** See [NOTICE.md](NOTICE.md). Public GitHub visibility permits viewing/forking and cannot technically block downloads.
+**Use requires prior written permission.** See [NOTICE.md](NOTICE.md). If made public on GitHub, viewing/forking are permitted and downloads cannot be technically blocked.
 
 ## Git distribution scope
 
