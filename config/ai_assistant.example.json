@@ -1,0 +1,39 @@
+{
+  "assistant": {
+    "enabled": false,
+    "max_suggestion_chars": 300
+  },
+  "structure_viewer": {
+    "enabled": true,
+    "show_unit_cell": true,
+    "bond_tolerance_angstrom": 0.45,
+    "grow_steps_per_click": 2
+  },
+  "llm": {
+    "mode": "auto",
+    "local": {
+      "provider": "ollama",
+      "host": "http://localhost:11434",
+      "model": "",
+      "model_pattern": "(?i)(instruct|qwen|llama|gemma|mistral)"
+    },
+    "cloud": {
+      "provider": "openai",
+      "api_key": "",
+      "api_key_env": "AUTOCRYS_API_KEY",
+      "base_url": "https://api.openai.com/v1",
+      "model": ""
+    },
+    "agent": {
+      "command": "openclaw",
+      "agent_id": "main",
+      "session_key": "autocrys",
+      "thinking": "",
+      "timeout_seconds": 600
+    }
+  },
+  "auto_diagnose": true,
+  "auto_context": true,
+  "max_console_lines": 200,
+  "language": "zh"
+}

@@ -1,0 +1,11 @@
+! UNIT_CELL_CONSTANTS= 10 20 30 90 90 90
+! SPACE_GROUP_NUMBER= 96
+! GENERATE_FRACTION_OF_TEST_REFLECTIONS=0.05
+! INCLUDE_RESOLUTION_RANGE=50 2.0
+
+INPUT_FILE=XDS_ASCII.HKL
+OUTPUT_FILE=temp.hkl  SHELX
+FRIEDEL'S_LAW=FALSE ! store anomalous signal in output file even if weak
+MERGE=FALSE ! keep individual observations so SHELX/Olex2 can calculate Rint
+
+! further options see https://xds.mr.mpg.de/html_doc/xdsconv_program.html

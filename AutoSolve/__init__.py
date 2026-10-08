@@ -1,0 +1,1 @@
+"""AutoSolve structure-solution module."""

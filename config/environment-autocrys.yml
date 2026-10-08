@@ -1,0 +1,11 @@
+name: AutoCrys
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - numpy
+  - scipy
+  - pillow
+  - matplotlib
+  - git
+  - pip

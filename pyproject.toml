@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "autocrys"
+version = "0.1.0"
+authors = [{name = "Shitao Wu"}]
+description = "AutoCrys crystallography processing, reconstruction, solving, refinement, and assistant UI"
+requires-python = ">=3.12"
+dependencies = [
+  "numpy",
+  "Pillow",
+  "scipy",
+  "matplotlib",
+]
+
+[project.scripts]
+autor3d = "AutoR3D.cli:main"
+autor3d-ui = "UI.ui:main"
+autocrys = "UI.ui:main"
+autocrys-ai = "UI.ui_ai:main"
+autocrys-base = "UI.ui_base:main"
+autocrys-main = "UI.ui_main:main"
+autocrys-self-check = "scripts.update_self_check:main"
+autodials = "AutoDials.mini_ui:main"
+
+[tool.setuptools]
+include-package-data = false
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["UI*", "AutoR3D*", "AutoDials*", "AutoXDS*", "AutoSolve*", "AutoRefine*", "config*", "scripts*"]
+exclude = ["Data*", "Demo*", "log*"]
+
+[tool.setuptools.package-data]
+config = ["ai_assistant.example.json", "environment-autocrys.yml"]
+AutoXDS = ["templates/*", "SKILL.md"]
+AutoSolve = [
+  "lib/SFAC_UCLA_2022.txt",
+  "lib/shelx_symops.json",
+  "lib/shelxt_space_groups.json",
+  "templates/template.res",
+  "tools/README.md",
+  "SKILL.md",
+]
+AutoRefine = ["references/*", "agents/*", "SKILL.md"]
+AutoR3D = ["SKILL.md"]
+AutoDials = ["start_ui.bat", "start_ui.sh", "STANDALONE_UI.md"]

@@ -1,0 +1,17 @@
+exclude config/ai_assistant.json
+prune Data
+prune Demo
+prune log
+prune build
+prune dist
+recursive-exclude AutoSolve/tools *
+include scripts/update_self_check.py
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude *:Zone.Identifier
+include GETTING_STARTED.md
+include DEPLOYMENT_AGENT.md
+include USER_MANUAL.md
+include RELEASE_AUDIT.md
+include AutoSolve/tools/README.md
+include NOTICE.md

@@ -1,0 +1,4 @@
+interface:
+  display_name: "AutoRefine"
+  short_description: "SHELXL refinement and zeolite Si/O model diagnosis"
+  default_prompt: "Use $autorefine to inspect and safely refine this SHELXL structure."
