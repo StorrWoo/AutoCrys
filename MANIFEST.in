@@ -15,3 +15,4 @@ include USER_MANUAL.md
 include RELEASE_AUDIT.md
 include AutoSolve/tools/README.md
 include NOTICE.md
+include RELEASE_NOTES.md

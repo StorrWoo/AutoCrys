@@ -1,4 +1,4 @@
-# AutoCrys 0.1 Agent 部署执行手册
+# AutoCrys v1.0 Agent 部署执行手册
 
 本文件供 AI/coding Agent 在另一台 Windows 电脑上部署 AutoCrys。面向人的背景说明见
 [`GETTING_STARTED.md`](GETTING_STARTED.md)。Agent 必须按 Gate A → E 顺序执行；任一 Gate
@@ -107,13 +107,13 @@ test -e "$target" && printf 'EXISTING_TARGET=%s\n' "$target"
 此时停止并让用户决定“更新现有安装”还是“使用新目录”。不得自动覆盖。更新时必须保留
 `Data/`、`log/` 和本机 `config/ai_assistant.json`。
 
-若来源为 `AutoCrys-0.1.0-linux-x86_64.tar.gz`，先检查内容，再解压：
+若来源为 `AutoCrys-v1.0-source.tar.gz`，先检查内容，再解压：
 
 ```bash
 cd "$HOME"
-tar -tzf AutoCrys-0.1.0-linux-x86_64.tar.gz | sed -n '1,40p'
+tar -tzf AutoCrys-v1.0-source.tar.gz | sed -n '1,40p'
 test ! -e "$HOME/AutoCrys"
-tar -xzf AutoCrys-0.1.0-linux-x86_64.tar.gz
+tar -xzf AutoCrys-v1.0-source.tar.gz
 cd "$HOME/AutoCrys"
 ```
 

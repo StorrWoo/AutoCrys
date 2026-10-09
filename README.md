@@ -1,8 +1,10 @@
-# AutoCrys README
+# AutoCrys v1.0
 
 **Author: Shitao Wu · Affiliation: ShanghaiTech**
 
-**Use requires prior written permission.** See [NOTICE.md](NOTICE.md). If made public on GitHub, viewing/forking are permitted and downloads cannot be technically blocked.
+**Viewing and downloading are permitted. Use requires prior written permission.** See [NOTICE.md](NOTICE.md). Write access is reserved for the owner and authorized collaborators.
+
+Download [v1.0](https://github.com/StorrWoo/AutoCrys/releases/tag/v1.0) and follow [GETTING_STARTED.md](GETTING_STARTED.md) to install. Release notes: [RELEASE_NOTES.md](RELEASE_NOTES.md).
 
 ## Git distribution scope
 

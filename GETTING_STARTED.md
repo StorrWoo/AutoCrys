@@ -1,4 +1,4 @@
-# AutoCrys 0.1 安装与首次启动
+# AutoCrys v1.0 安装与首次启动
 
 本文说明如何在 Windows + WSL 2 + Ubuntu 上安装 AutoCrys，并完成第一次可验证的启动。日常处理、GUI 各按钮、完整 CLI、输出解释和故障排查见 [USER_MANUAL.md](USER_MANUAL.md)。
 
@@ -181,14 +181,14 @@ tar \
   --exclude='AutoCrys/*.egg-info' \
   --exclude='AutoCrys/__pycache__' \
   --exclude='*:Zone.Identifier' \
-  -czf AutoCrys-0.1.0-linux-x86_64.tar.gz AutoCrys
+  -czf AutoCrys-v1.0-source.tar.gz AutoCrys
 ```
 
 把压缩包复制到目标 WSL 用户家目录后：
 
 ```bash
 cd "$HOME"
-tar -xzf AutoCrys-0.1.0-linux-x86_64.tar.gz
+tar -xzf AutoCrys-v1.0-source.tar.gz
 cd "$HOME/AutoCrys"
 ```
 

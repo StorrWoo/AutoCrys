@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "autocrys"
-version = "0.1.0"
+version = "1.0.0"
 authors = [{name = "Shitao Wu"}]
 description = "AutoCrys crystallography processing, reconstruction, solving, refinement, and assistant UI"
 requires-python = ">=3.12"
